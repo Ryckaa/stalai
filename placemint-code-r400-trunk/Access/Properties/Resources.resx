@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="appSettingsFileFailFormat" xml:space="preserve">
+    <value>The default applications settings are being used: {0}</value>
+  </data>
+  <data name="appSettingsFileName" xml:space="preserve">
+    <value>PlaceMint_settings.config</value>
+  </data>
+  <data name="configInvalidRegexFormat" xml:space="preserve">
+    <value>{0} of the regular expressions in your Regex list have invalid syntax. {1} removed from the displayed list.
+Select "Edit Regex List" for information on how to correct this error.</value>
+  </data>
+  <data name="configLoadDialogTitle" xml:space="preserve">
+    <value>Select the file to load the window group configuration</value>
+  </data>
+  <data name="configPathTooLong" xml:space="preserve">
+    <value>No window groups were created because the supplied file path for the configuration file was too long.</value>
+  </data>
+  <data name="configurationIllegalValueFormat" xml:space="preserve">
+    <value>The Configuration could not be loaded. {0}</value>
+  </data>
+  <data name="duplicateHotkeys" xml:space="preserve">
+    <value>There was at least one hotkey that was a duplicate of another hotkey.</value>
+  </data>
+  <data name="duplicateHotkeysClear" xml:space="preserve">
+    <value>Any duplictes were removed.
+Please check your hotkey configuration to assigne unique hotkeys.</value>
+  </data>
+  <data name="duplicateHotkeysDialogTitle" xml:space="preserve">
+    <value>Duplicate Hotkey</value>
+  </data>
+  <data name="editInvalidRegex" xml:space="preserve">
+    <value>The regular expression has syntactical errors.</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value> Error</value>
+  </data>
+  <data name="FileDefaultExt" xml:space="preserve">
+    <value>.config</value>
+  </data>
+  <data name="FileFilter" xml:space="preserve">
+    <value>Config files (*.config;*.xml)|*.config;*.xml|All files (*.*)|*.*</value>
+  </data>
+  <data name="fileNotFoundDialogTitle" xml:space="preserve">
+    <value>Configuration File Not Found</value>
+  </data>
+  <data name="groupNameAlreadyExists" xml:space="preserve">
+    <value>This name is already used by another group, please pick a unique title.</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Supported command line arguments:
+  /? - Show this help
+  /debug - Force logging level to debug. Ignored if used with trace argument
+  /nwd - Do not force the programs working directory to containing the exe
+ /pause - Force program to be initially paused
+  /trace - Force logging level to trace</value>
+  </data>
+  <data name="helpUrl" xml:space="preserve">
+    <value>http://sourceforge.net/apps/mediawiki/placemint/</value>
+  </data>
+  <data name="hotkeyAlreadyExists" xml:space="preserve">
+    <value>This hotkey is already assigned, please pick a unique hotkey.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_paused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_paused.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="illegalFallThrough" xml:space="preserve">
+    <value>Switch statement not intended to reach default option.</value>
+  </data>
+  <data name="illegalSenderFormat" xml:space="preserve">
+    <value>{0} can only be triggered by {1}.</value>
+  </data>
+  <data name="intSizeFailFormat" xml:space="preserve">
+    <value>The value must not be {0} than {1}.</value>
+  </data>
+  <data name="intValidationFail" xml:space="preserve">
+    <value>The value must be an integer.</value>
+  </data>
+  <data name="invalidRegexFormat" xml:space="preserve">
+    <value>Invalid regular expression: {0}</value>
+  </data>
+  <data name="invalidRegexLoadedFormat" xml:space="preserve">
+    <value>The configuration could not be loaded because a group  has an invalid regular expression: {0}</value>
+  </data>
+  <data name="mainGUITitle" xml:space="preserve">
+    <value>PlaceMint v{0} </value>
+  </data>
+  <data name="paused" xml:space="preserve">
+    <value> (Paused)</value>
+  </data>
+  <data name="placeMintPreFormat" xml:space="preserve">
+    <value>PlaceMint: {0} </value>
+  </data>
+  <data name="regexListFileNotFound" xml:space="preserve">
+    <value>"{0}" was not found, therefore the Regex list could not be initialized.
+To add a regular exprestion to the Regex list, select "Edit Regex List".</value>
+  </data>
+  <data name="regexListIllegalValueFormat" xml:space="preserve">
+    <value>The Regex List could not be loaded. {0}</value>
+  </data>
+  <data name="regexListLoadDialogTitle" xml:space="preserve">
+    <value>Select the file to load the Regex list</value>
+  </data>
+  <data name="regexListloadFailureFormat" xml:space="preserve">
+    <value>"{0}" was not properly formated for a Regex List. Please verify the file and try again.</value>
+  </data>
+  <data name="regexListPathTooLong" xml:space="preserve">
+    <value>"{0}" could not be loaded because the path was too long, therefore the Regex list could not be initialized.</value>
+  </data>
+  <data name="regexTitleInUse" xml:space="preserve">
+    <value>This title is already being used by another regular expression, please pick a unique title.</value>
+  </data>
+  <data name="regexTitleNotFound" xml:space="preserve">
+    <value>{0} not found in the Regex list. {1} added to the list.</value>
+  </data>
+  <data name="saveCanceledFormat" xml:space="preserve">
+    <value>Save canceled because {0} was not validated</value>
+  </data>
+  <data name="saveCancelHotkeys" xml:space="preserve">
+    <value>The configuration was not saved because there was at least one hotkey that dupicated the definintion of another hotkey.</value>
+  </data>
+  <data name="saveCancelSlots" xml:space="preserve">
+    <value>The configuration was not saved because there was at least two slots from one windowgroup that shared the same size and location.</value>
+  </data>
+  <data name="saveDialogTitle" xml:space="preserve">
+    <value>Select save location for the window group configuration.</value>
+  </data>
+  <data name="slotTemplateIllegalValueFormat" xml:space="preserve">
+    <value>The Slot Template List could not be loaded. {0}</value>
+  </data>
+  <data name="slotTemplateListLoadDialogTitle" xml:space="preserve">
+    <value>Select the file to load the Slot Template list</value>
+  </data>
+  <data name="slotTemplateListNotFoundFormat" xml:space="preserve">
+    <value>"{0}" was not found, therefore the Slot Template list could not be initialized for the sample slots.</value>
+  </data>
+  <data name="slotTemplatePathTooLong" xml:space="preserve">
+    <value>"{0}" could not be loaded because the path was too long, therefore the Slot Template list could not be initialized for the sample slots.</value>
+  </data>
+  <data name="slotTemplateTitleInUse" xml:space="preserve">
+    <value>This title is already being used by another slot template, please pick a unique title.</value>
+  </data>
+  <data name="upArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upArrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowGroupLoadFormatFailure" xml:space="preserve">
+    <value>The selected file was not properly formated for a window group. Please verify the file and try again.</value>
+  </data>
+  <data name="regexReuseSavePost" xml:space="preserve">
+    <value>Edit the selected regular expressions so that none of the groups are using the same combination of expressions.</value>
+  </data>
+  <data name="regexReuseLoadPost" xml:space="preserve">
+    <value>The expressions used by the group(s) were cleared and the configuration was saved.</value>
+  </data>
+  <data name="regexReusePre" xml:space="preserve">
+    <value>The following group(s) were using the same combination of regular expressions:
+</value>
+  </data>
+  <data name="emptyPathFormat" xml:space="preserve">
+    <value>The supplied path does not point to a {0} file, so nothing was loaded. </value>
+  </data>
+  <data name="firstRun" xml:space="preserve">
+    <value>Welcome to PlaceMint.
+
+If you have downloaded a regular expression list or a slot template list, please set their loction (Tools &gt; Options).
+You can make your first setup by bringing up the configuration window (Tools &gt; Configure).</value>
+  </data>
+  <data name="firstRunRegex" xml:space="preserve">
+    <value>A Regular Expression List has not been set yet.
+You must download one one from the project website or make your own expressions before PlaceMint will match windows.</value>
+  </data>
+  <data name="firstRunSlotTemplate" xml:space="preserve">
+    <value>A Slot Template List has not been set yet.
+You will still be able to configure your setup, but you will not be able to set slot sizes based on known default window sizes.</value>
+  </data>
+</root>

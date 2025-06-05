@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9195DE5A-C77E-44AB-8256-64F81D9EAA3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlaceMint.Manager</RootNamespace>
+    <AssemblyName>PlaceMintManager</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\bin\Debug\PlaceMint_Manager.XML</DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="ClassRegex.cs" />
+    <Compile Include="ClassList.cs" />
+    <Compile Include="GroupConfiguration.cs" />
+    <Compile Include="Hotkey.cs" />
+    <Compile Include="IDrawOverlay.cs" />
+    <Compile Include="ITitle.cs" />
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="RecentFiles.cs" />
+    <Compile Include="RegexList.cs" />
+    <Compile Include="SlotTemplateList.cs" />
+    <Compile Include="IDeepCloneable.cs" />
+    <Compile Include="IFileNotFound.cs" />
+    <Compile Include="IteratorInterfaces.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="PlaceMintException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RectangleWrap.cs" />
+    <Compile Include="PMRegex.cs" />
+    <Compile Include="Slot.cs" />
+    <Compile Include="ISwap.cs" />
+    <Compile Include="SlotList.cs" />
+    <Compile Include="SlotTemplate.cs" />
+    <Compile Include="TitleList.cs" />
+    <Compile Include="TitleMatch.cs" />
+    <Compile Include="TitleRegex.cs" />
+    <Compile Include="WindowGroup.cs" />
+    <Compile Include="WindowGroupExpression.cs" />
+    <Compile Include="WindowInfo.cs" />
+    <Compile Include="WindowInfoDictionary.cs" />
+    <Compile Include="WindowInfoGrabber.cs" />
+    <Compile Include="WindowsApi.cs" />
+    <Compile Include="XmlReadWrite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

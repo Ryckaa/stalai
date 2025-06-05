@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="appSettingsFileNotFound" xml:space="preserve">
+    <value>The application settings file was not found, so the default values were used.</value>
+  </data>
+  <data name="configFileNotFound" xml:space="preserve">
+    <value>No window groups were created because the windows group configuration file was not found.
+If this is the first time running PlaceMint, go to Tools &gt; Configure to setup your first configuration.</value>
+  </data>
+  <data name="destroyWindowFailureFormat" xml:space="preserve">
+    <value>DestroyWindow failed with code {0}.</value>
+  </data>
+  <data name="emptyHWND" xml:space="preserve">
+    <value>Slot is empty cannot access hWND.</value>
+  </data>
+  <data name="enumDesktopWindowsFailureFormat" xml:space="preserve">
+    <value>EnumDesktopWindows failed with code {0}.</value>
+  </data>
+  <data name="illegalEmptySlotInitializationFormat" xml:space="preserve">
+    <value>Cannot set a hWND to {0}. When trying to make a slot with a window, use the constructor without a hWND paramater.</value>
+  </data>
+  <data name="illegalGroupsIndex" xml:space="preserve">
+    <value>The configuration only has {0} groups, attempted to access group number {1}.</value>
+  </data>
+  <data name="illegalHWNDIndex" xml:space="preserve">
+    <value>The slot only has {0} window, attempted to access window number {1}.</value>
+  </data>
+  <data name="illegalSlotIndex" xml:space="preserve">
+    <value>The window group only has {0} slots, attempted to access slot number {1}.</value>
+  </data>
+  <data name="invalidRegexExceptionFormat" xml:space="preserve">
+    <value>The match string for "{0}" is an invalid Regular Expression.</value>
+  </data>
+  <data name="InvalidXmlValueFormat" xml:space="preserve">
+    <value>There was an invalid value on line {0}.</value>
+  </data>
+  <data name="logFileName" xml:space="preserve">
+    <value>pm_log.txt</value>
+  </data>
+  <data name="logFormat" xml:space="preserve">
+    <value>{0}-{1}: {2}</value>
+  </data>
+  <data name="pathTooLong" xml:space="preserve">
+    <value>The supplied file path was too long.</value>
+  </data>
+  <data name="regexListFileNotFound" xml:space="preserve">
+    <value>A list of regular expressions could not be found. To create one use the "Edit Regex List" option.</value>
+  </data>
+  <data name="setWindowPosFailureFormat" xml:space="preserve">
+    <value>SetWindowPos failed to {0} the window: {1}</value>
+  </data>
+  <data name="showWindowFailureFormat" xml:space="preserve">
+    <value>ShowWindow failed to {0} the window: {1}</value>
+  </data>
+  <data name="slotTemplateDileNotFound" xml:space="preserve">
+    <value>A list of slot templates could not be found.</value>
+  </data>
+  <data name="wrongXmlFormat" xml:space="preserve">
+    <value>Attempt to read xml file that was incorrectly formated.</value>
+  </data>
+</root>
